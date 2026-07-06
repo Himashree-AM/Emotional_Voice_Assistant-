@@ -1,0 +1,30 @@
+name: emotional_voice_assistant
+description: A basic emotional voice assistant that transcribes voice, infers emotion, and replies with audio.
+publish_to: "none"
+version: 0.0.1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Voice to text
+  speech_to_text: ^7.3.0
+
+
+  # Text to speech
+  flutter_tts: ^3.6.7
+
+  # For simple UI / util
+  provider: ^6.0.5
+  http: ^1.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
